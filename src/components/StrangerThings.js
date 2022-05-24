@@ -9,12 +9,12 @@ const getRealityClass = (hereIsTheUpsideDownWorld) => (
 );
 
 const strangerThingsConfig = {
-  url: 'https://igorhamzi-dw.herokuapp.com/',
+  url: 'https://igorhamzi-up.herokuapp.com/',
   timeout: process.env.REACT_APP_HAWKINS_TIMEOUT,
 };
 
 const upsideDownConfig = {
-  url: 'https://igorhamzi-up.herokuapp.com/',
+  url: 'https://igorhamzi-dw.herokuapp.com/',
   timeout: process.env.REACT_APP_UPSIDEDOWN_TIMEOUT,
 };
 
